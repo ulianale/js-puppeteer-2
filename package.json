@@ -1,0 +1,16 @@
+{
+  "name": "hw-p-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "jest-puppeteer": "^8.0.6",
+    "puppeteer": "^19.8.3"
+  }
+}
