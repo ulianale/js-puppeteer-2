@@ -41,16 +41,16 @@ Before(async function () {
   When("user choose time of movie has been choosen earlier", async function () {
       return await clickElement(this.page, "body main section:nth-child(1) div.movie-seances__hall ul li:nth-child(3) a");
     });
-  When("user choose the first avalible place", async function () {
+  When("user choose the first avalible place in any row", async function () {
     return await selectionFreePlace(this.page, 7);
   });
-  When("user choose the second avalible place", async function () {
+  When("user choose the second avalible place in any row", async function () {
     return await selectionFreePlace(this.page, 7);
   });
-  When("user choose avalible place", async function () {
+  When("user choose avalible place in any row", async function () {
     return await selectionFreePlace(this.page, 7);
   });
-  When("user choose a busy place", async function () {
+  When("user choose a busy place in row has been choosen earlier", async function () {
     return await selectionBusyPlace(this.page, 7);
   });
   When("user click button", async function () {
