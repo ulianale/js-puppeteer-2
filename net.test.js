@@ -36,6 +36,7 @@ describe("Tests", () => {
 
   test("Booking busy place", async () => {
     await selectionBusyPlace(page, 7);
+    await clickElement(page, "button.acceptin-button");
     expect(
       String(
         await page.$eval("button", (button) => {
